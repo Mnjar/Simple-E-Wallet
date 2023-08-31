@@ -11,7 +11,6 @@ class AuthService {
           .where("username", isEqualTo: username)
           .get();
       if (querySnapshot.size == 1) {
-        // Jika ditemukan data pengguna dengan username yang cocok
         String email = querySnapshot.docs[0]["email"];
         await FirebaseAuth.instance.signInWithEmailAndPassword(
           email: email,

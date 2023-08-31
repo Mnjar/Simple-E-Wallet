@@ -64,8 +64,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Full Name",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left: 10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.person),
                           ),
                           border: OutlineInputBorder(
@@ -81,9 +80,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Username",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left:
-                                    10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.person),
                           ),
                           border: OutlineInputBorder(
@@ -100,9 +97,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Phone Number",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left:
-                                    10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.phone),
                           ),
                           border: OutlineInputBorder(
@@ -119,9 +114,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Email",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left:
-                                    10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.email),
                           ),
                           border: OutlineInputBorder(
@@ -139,9 +132,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Password",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left:
-                                    10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.lock),
                           ),
                           border: OutlineInputBorder(
@@ -159,9 +150,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         decoration: InputDecoration(
                           hintText: "Confirm Password",
                           prefixIcon: const Padding(
-                            padding: EdgeInsets.only(
-                                left:
-                                    10.0),
+                            padding: EdgeInsets.only(left: 10.0),
                             child: Icon(Icons.lock),
                           ),
                           border: OutlineInputBorder(
@@ -216,13 +205,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color.fromARGB(
-                              255, 134, 90, 254),
+                          backgroundColor:
+                              const Color.fromARGB(255, 134, 90, 254),
                           foregroundColor: Colors.white,
                           elevation: 5,
                           shape: RoundedRectangleBorder(
-                            borderRadius:
-                                BorderRadius.circular(24.0),
+                            borderRadius: BorderRadius.circular(24.0),
                           ),
                           padding: const EdgeInsets.symmetric(
                             vertical: 16.0,
