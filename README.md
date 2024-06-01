@@ -1,6 +1,3 @@
-# projectbncc
-
-A new Flutter project.
 
 ## Getting Started
 
